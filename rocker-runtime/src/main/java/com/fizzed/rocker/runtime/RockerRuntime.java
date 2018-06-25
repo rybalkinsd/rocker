@@ -16,9 +16,10 @@
 package com.fizzed.rocker.runtime;
 
 import com.fizzed.rocker.RockerStringify;
-import javax.tools.ToolProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import javax.tools.ToolProvider;
 
 public class RockerRuntime {
     private final static Logger log = LoggerFactory.getLogger(RockerRuntime.class.getName());
